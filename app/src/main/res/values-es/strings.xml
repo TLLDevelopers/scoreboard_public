@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScoreBoard</string>
+    <string name="toast_name_fill">Escoja el nombre de su partida</string>
+    <string name="toast_players_fill">Rellene los nombres de todos los jugadores</string>
+    <string name="toast_points_fill">Indique los puntos del jugador</string>
+    <string name="selected_color">Color Seleccionado</string>
+    <string name="match_name">NOMBRE DE LA PARTIDA</string>
+    <string name="number_of_players">NÚMERO DE JUGADORES</string>
+    <string name="match_color">COLOR DE LA PARTIDA</string>
+    <string name="hint_player_name">Nombre Jugador …</string>
+    <string name="player">Jugador %d</string>
+    <string name="new_match">Nueva Partida</string>
+    <string name="swipe_long">"Desliza hacia la derecha\no\nmantén pulsado\npara eliminar una partida"</string>
+    <string name="historial">Historial</string>
+    <string name="button_new_match">Nueva Partida</string>
+    <string name="qualify_text">"Tú opinión nos importa.\nSi te está gustando la aplicación, no te llevará más de 1 minuto.\n¡Gracias por tu apoyo!"</string>
+    <string name="rate">Valorar</string>
+    <string name="later">Más Tarde</string>
+    <string name="qualify_title">Califícanos en Google Play</string>
+    <string name="dialog_play_title">¿Quieres Jugar?</string>
+    <string name="dialog_play_text">Debes ver un anuncio para escoger más de 4 jugadores</string>
+    <string name="dialog_play_ad">Ver Anuncio</string>
+    <string name="dialog_play_dont">Ahora No</string>
+
+    <string name="match_deleted">Partida Eliminada</string>
+    <string name="dialog_delete_title">Eliminar Partida</string>
+    <string name="dialog_delete_text">¿Estás seguro de que quieres eliminar esta partida: %S?</string>
+    <string name="dialog_delete_delete">ELIMINAR</string>
+    <string name="dialog_delete_no">NO</string>
+</resources>

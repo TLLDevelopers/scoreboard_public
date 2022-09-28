@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="adapterScore"
+            type="scoreboard.score.board.score.ScoreAdapter" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawingCacheQuality="high"
+        android:padding="20dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:id="@+id/layout_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/points_text"
+                style="@android:style/Widget.DeviceDefault.Light.Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/background_color"
+                android:backgroundTint="#FBFBFB"
+                android:elegantTextHeight="false"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/player_name_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/alegreya_sans_sc_medium"
+                android:gravity="center"
+                android:text="JUAN Y PEPE"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:autoSizeTextType="uniform" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/restar_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/remove"
+                    android:gravity="center" />
+
+                <EditText
+                    android:id="@+id/points_to"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/alegreya_sans_sc_medium"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/sumar_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/sum"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScoreBoard</string>
+    <string name="toast_name_fill">Choose the name of your game</string>
+    <string name="toast_players_fill">Fill in the names of all the players</string>
+    <string name="toast_points_fill">Indicate player points</string>
+    <string name="selected_color">Selected Color</string>
+    <string name="match_name">NAME OF THE GAME</string>
+    <string name="number_of_players">NUMBER OF PLAYERS</string>
+    <string name="match_color">HEADING COLOR</string>
+    <string name="hint_player_name">Player Name …</string>
+    <string name="player">Player %d</string>
+    <string name="new_match">New Game</string>
+    <string name="swipe_long">"Swipe right\nor\nhold down\nto delete a game"</string>
+    <string name="historial">Historial</string>
+    <string name="button_new_match">New Game</string>
+    <string name="qualify_text">"Your opinion matters to us.\nIf you like the app, it will not take you more than 1 minute.\n¡Thanks for your support!"</string>
+    <string name="rate">Rate</string>
+    <string name="later">Later</string>
+    <string name="qualify_title">Rate us on Google Play</string>
+    <string name="dialog_play_title">Do you want to play?</string>
+    <string name="dialog_play_text">You must watch an ad to choose more than 4 players</string>
+    <string name="dialog_play_ad">See Ad</string>
+    <string name="dialog_play_dont">Not Now</string>
+
+    <string name="match_deleted">Game Deleted</string>
+    <string name="dialog_delete_title">Delete Match</string>
+    <string name="dialog_delete_text">Are you sure you want to delete this game: %S?</string>
+    <string name="dialog_delete_delete">DELETE</string>
+    <string name="dialog_delete_no">NO</string>
+
+</resources>

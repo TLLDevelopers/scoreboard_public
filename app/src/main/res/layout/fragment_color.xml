@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".newscore.matchcolor.ColorFragment">
+
+    <data>
+
+        <variable
+            name="colorViewModel"
+            type="scoreboard.score.board.newscore.matchcolor.ColorViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button_selected"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_selected">
+
+            <TableRow style="@style/table_row_style">
+
+                <Button
+                    android:id="@+id/button_red"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/red" />
+
+                <Button
+                    android:id="@+id/button_orange"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/orange" />
+
+                <Button
+                    android:id="@+id/button_yellow"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/yellow" />
+
+                <Button
+                    android:id="@+id/button_pistaccio"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/pistaccio" />
+
+            </TableRow>
+
+            <TableRow style="@style/table_row_style">
+
+                <Button
+                    android:id="@+id/button_green"
+                    android:backgroundTint="@color/green"
+                    style="@style/button_color_style" />
+
+                <Button
+                    android:id="@+id/button_teal"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/teal" />
+
+                <Button
+                    android:id="@+id/button_light_blue"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/light_blue" />
+
+                <Button
+                    android:id="@+id/button_blue"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/blue" />
+            </TableRow>
+
+            <TableRow style="@style/table_row_style">
+
+                <Button
+                    android:id="@+id/button_dark_blue"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/dark_blue" />
+
+                <Button
+                    android:id="@+id/button_purple"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/purple" />
+
+                <Button
+                    android:id="@+id/button_pink"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/pink" />
+
+                <Button
+                    android:id="@+id/button_wine"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/wine" />
+            </TableRow>
+
+            <TableRow style="@style/table_row_style">
+
+                <Button
+                    android:id="@+id/button_white"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/white" />
+
+                <Button
+                    android:id="@+id/button_gray"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/gray" />
+
+                <Button
+                    android:id="@+id/button_brown"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/brown" />
+
+                <Button
+                    android:id="@+id/button_black"
+                    style="@style/button_color_style"
+                    android:backgroundTint="@color/black" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:text="@string/selected_color"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button_selected"
+            app:layout_constraintEnd_toEndOf="@+id/button_selected"
+            app:layout_constraintStart_toStartOf="@+id/button_selected" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
